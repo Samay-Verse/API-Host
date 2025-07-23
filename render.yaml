@@ -2,8 +2,12 @@ services:
   - type: web
     name: saheli-backend
     runtime: python
-    buildCommand: ""
-    startCommand: gunicorn app:app
+    # This command tells Render to install all packages from your requirements.txt file
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app"
     envVars:
       - key: PYTHON_VERSION
-        value: 3.10
+        value: "3.10"
+      - key: GROQ_API_KEY
+        value: ""
+        generateValue: true
