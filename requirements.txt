@@ -3,3 +3,4 @@ flask-cors
 cryptography
 groq
 gunicorn
+dotenv
