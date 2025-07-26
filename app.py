@@ -461,7 +461,7 @@ Now respond naturally as Saheli, the supportive AI friend, in the user's languag
 # This is a global instance that will be shared across all API requests.
 try:
     assistant = WomenSupportAI()
-    print("🌸 Welcome to Saheli - Your Support Companion 🌸")
+    print("🌸 Welcome to Saheli - Your Support Companion Yout Personal Support System🌸")
     print("\n🔐 Secure session initialized. API is ready.")
 except (ValueError, AuthenticationError, APIConnectionError, APIError) as e:
     print(f"\nFatal Initialization Error: {e}")
