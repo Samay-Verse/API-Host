@@ -400,6 +400,7 @@ Current Situation: {decrypted_current_situation}
 Risk Level: {risk_level}/10
 Emotional State: {emotional_state}
 Preferred Language: {user_lang}
+may be imnpt 
 """
 
         return {
