@@ -1,6 +1,5 @@
-flask
-flask-cors
-cryptography
-groq
+fastapi
+uvicorn[standard]
 gunicorn
-dotenv
+python-dotenv
+groq
